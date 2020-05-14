@@ -3,24 +3,59 @@
     <head>
         <meta charset="utf-8">
         <title>Title of the page</title>
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/custom.css">
     </head>
 <body>
-    <nav>
-        <p>My website</p>
-        <ul>
-           <li><a href="index.html">Home</a></li>
-           <li><a href="#team">Team</a></li>
-           <li><a href="#about">About US</a></li>
-           <li><a>Contact</a></li>
-        </ul> 
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Project</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarMenu">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#stack">Technologies involved</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About US</a>
+                    </li>
+                </ul> 
+            </div>
+        </div>
     </nav>
 
-    <header>
-        <h1>Header</h1>
-        <p>Description</p>
+    <header class="jumbotron mb-5">
+        <div class="container text-center">
+            <h1 class="display-4">Project of studies</h1>
+            <p>This project was developed inspired by HTML5 and CSS3 classes at <a href="https://bit.ly/3fruZ41" target="_blank">Digital Inovation One</a>.</p>
+        </div>  
     </header>
 
-    <section id='team'>
+    <section id='stack'>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <img src="assets/images/team.jpg" class="rounded-circle mb-4" width="250" height="250">
+                    <h2>We learn theory</h2>
+                    <p>
+                        Well, the teacher begin your class speaking about the thema.
+                    </p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img src="assets/images/coding.jpg" class="rounded-circle mb-4" width="250" height="250">
+                    <h2>Practice and Practice</h2>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img src="assets/images/questions.jpg" class="rounded-circle mb-4" width="250" height="250">
+                    <h2>At the end, we do a test</h2>
+                </div>
+            </div>
+        </div>
         <h3>About Team!</h3>
         <p>A little description...</p>
         <img src="./img/team.jpg" alt="Team image" width="300px">
@@ -35,5 +70,8 @@
     <footer>
         <p>Developed by por Salumão Barbosa</p>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
 </body>
 </html>
