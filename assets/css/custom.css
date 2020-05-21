@@ -23,7 +23,7 @@ img:hover{
 
 #about{
     margin-top: 20px;
-    background-color: #0C154A; /* #192DA1;*/
+    background-color: #0C154A;
     color: #CCCCCC;
     padding: 20px;
 }
@@ -63,9 +63,6 @@ h1,h2{
 footer{
     margin-top: 30px;
     background-color: #0C154A;
-    height: 400px;
+    height: 200px;
     color: #CCCCCC;
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
 }
